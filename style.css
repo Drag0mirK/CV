@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:900&display=swap");
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+/*--------------------------body configuration--------------------------*/
+body
+{
+    background-color: rgba(198, 233, 245, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+/*--------------------------Container configuration--------------------------*/
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 1000px;
+    background-color: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+/*--------------------------ul style--------------------------*/
+ul
+{
+    margin-bottom: 15px;
+    font-weight: none;
+    font-size: 18px;
+}
+/*--------------------------Lists style--------------------------*/
+li
+{
+    list-style: none;
+}
+/*--------------------------About the left part--------------------------*/
+.left
+{
+    position: relative;
+    background-color: #323b4c;
+    color: white;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+/*--------------------------Header of profile--------------------------*/
+.profile-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+/*--------------------------Image holder--------------------------*/
+.prof-image
+{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*--------------------------Image style--------------------------*/
+.image
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+/*--------------------------Information holder--------------------------*/
+.Inforamtion-wrapper
+{
+    padding-left: 55px;
+    margin-top: 40px;
+}
+/*--------------------------Header--------------------------*/
+.Header
+{
+    border-bottom-style: solid;
+    border-bottom-color:#7b7f86;
+    border-bottom-width: 3px;
+    margin-bottom: 25px;
+}
+/*--------------------------Content header--------------------------*/
+.content
+{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #479cd0;
+}
+/*--------------------------Contacts style--------------------------*/
+.contacts
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
+/*--------------------------Icon holder--------------------------*/
+.icon
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+    gap: 20px;
+}
+/*--------------------------Icon style--------------------------*/
+.side-icons
+{
+    width: 25px;
+}
+/*--------------------------Contact info--------------------------*/
+.info
+{
+text-decoration: none;
+font-weight: normal;
+font-size: 15px;
+color: #cacbcc;
+}
+/*--------------------------Contact info style--------------------------*/
+a 
+{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+/*--------------------------Contact info style of hover--------------------------*/
+  a:hover
+  {
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+  }
+/*--------------------------Style for every header of a section--------------------------*/
+.header-wrapper
+{
+    margin-top: 30px;
+    padding-right: 20px;
+}
+/*--------------------------Skill box section style--------------------------*/
+.skill-box
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+/*--------------------------Skill box style of CSS--------------------------*/
+.skill-type-CSS{
+    margin-right: 12px;
+}
+/*--------------------------Skill box style of C--------------------------*/
+.skill-type-C{
+    margin-right: 22px;
+}
+/*--------------------------Skill box style of js--------------------------*/
+.skill-type-js{
+    margin-right: 22px;
+}
+/*--------------------------Skill box style of C++--------------------------*/
+.skill-type-Cplus{
+    margin-right: 14px;
+    padding-bottom: 20px;
+}
+/*--------------------------bar style holder--------------------------*/
+.bar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    background-color: white;
+    width: 150px;
+    height: 11px;
+    border-radius: 10px
+}
+/*--------------------------bar style holder of html--------------------------*/
+.bar-html{
+    background-color: #479cd0;
+    height: 20px;
+    padding-left: 70px;
+    color: black;
+    width: 100px;
+    height: 11px;
+    border-radius: 10px;
+    
+}
+/*--------------------------bar style holder of CSS--------------------------*/
+.bar-CSS{
+    background-color: #479cd0;
+    height: 20px;
+    padding-left: 70px;
+    color: black;
+    width: 85px;
+    height: 11px;
+    border-radius: 10px;
+}
+/*--------------------------bar style holder of C--------------------------*/
+.bar-C{
+    background-color: #479cd0;
+    height: 20px;
+    padding-left: 70px;
+    color: black;
+    width: 40px;
+    height: 11px;
+    border-radius: 10px;
+}
+/*--------------------------bar style holder of js--------------------------*/
+.bar-js{
+    background-color: #479cd0;
+    height: 20px;
+    padding-left: 40px;
+    color: black;
+    width: 30px;
+    height: 11px;
+    border-radius: 10px;
+}
+/*--------------------------bar style holder of C++--------------------------*/
+.bar-Cplus{
+    background-color: #479cd0;
+    height: 20px;
+    padding-left: 20px;
+    color: black;
+    width: 30px;
+    height: 11px;
+    border-radius: 10px;
+}
+
+/*--------------------------About the right part--------------------------*/
+.right
+{
+    position: relative;
+    background-color:#ffffff;
+    padding:40px;
+
+}
+/*--------------------------Profile name wrapper--------------------------*/
+.profile-name-wrapper
+{
+    color: #323b4c;
+   padding-bottom: 50px
+}
+/*--------------------------Profile name style--------------------------*/
+.name
+{
+font-size: 40px;
+}
+/*--------------------------Style of letter D and K--------------------------*/
+.Letter
+{
+    color:#54b3d6;
+    font-size: 50px;
+}
+/*--------------------------Headers style--------------------------*/
+.header
+{
+    text-align: center;
+    background-color: #2d3c4f;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    padding-top: 3px;
+}
+/*--------------------------About me wrapper--------------------------*/
+.wrapper-aboutme
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    padding-bottom:3rem;
+}
+/*--------------------------About me information--------------------------*/
+.information
+{
+    max-width: auto;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+/*--------------------------Interships section--------------------------*/
+.wrapper-interships
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------Interships wrapper--------------------------*/
+.interships-box
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 30px;
+    padding-bottom:3rem;
+}
+/*--------------------------Interships company lookout style--------------------------*/
+.company
+{
+    min-width: 250px;
+    width: 250px;
+    line-height: 20px;
+    margin-top: 3px;
+}
+/*--------------------------Interships font style--------------------------*/
+h5
+{
+    font-size: 17px;
+    list-style: 20px;
+    font-weight: bold;
+    color: #7b7f86;
+}
+/*--------------------------Interships postion header--------------------------*/
+.position
+{
+color: #54b3d6; 
+font-weight: bold;
+font-size: 22px;
+}
+/*--------------------------Interships postion font style--------------------------*/
+.taken-pos{
+    font-size: 16px;
+    width: 300px;
+}
+/*--------------------------Language wrapper--------------------------*/
+.wrapper-language{
+    padding-bottom: 3rem;
+}
+/*--------------------------Language wrapper font styles--------------------------*/
+.wrapper-language h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*--------------------------Language wrapper font styles--------------------------*/
+.holder-bar
+{
+    display: grid;
+    grid-template-columns:90px 1fr;
+    margin-bottom: 20px;
+}
+/*--------------------------Header wrapper of the languages--------------------------*/
+.header-container
+{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 2rem;
+}
+/*--------------------------Style for the languges bar--------------------------*/
+.bar-style-holder
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-width: 0px;
+    margin-top: 3px;
+    background-color: rgb(199, 199, 199);
+    height: 15px;
+    border-radius: 10px
+}
+/*--------------------------Style for Bulgarian languges bar--------------------------*/
+.bar-style-bulgarian
+{
+    background-color: #479cd0;
+    height: 15px;
+    width: 90%;
+    border-radius: 10px;
+    
+}
+/*--------------------------Style for English languges bar--------------------------*/
+.bar-style-english
+{
+    background-color: #479cd0;
+    width: 70%;
+    height: 15px;
+    border-radius: 10px;
+}
+/*--------------------------Style for German languges bar--------------------------*/
+.bar-style-german
+{
+    background-color: #479cd0;
+    width: 30%;
+    height: 15px;
+    border-radius: 10px;
+}
+/*--------------------------Holder wrapper of interests section--------------------------*/
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------Style of interests ul--------------------------*/
+.interests
+{
+   display: flex;
+   column-gap: 40px;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+}
+/*--------------------------Style of interests list--------------------------*/
+.interest-list
+{
+    list-style: none;
+    color: #323b4c;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-left: 10px;
+    transition: color 0.5s;
+}
+/*--------------------------Style of interests list hover effect--------------------------*/
+.interest-list:hover
+{
+    color: #479cd0;
+    cursor: pointer;
+}
+
+/*--------------------------Max width--------------------------*/
+@media (max-width: 1000px)
+{
+    .container{
+        margin: 40px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
